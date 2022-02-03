@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Verify Operations,Chrome 97.0.4692.99,,,2022-02-04 00:21:53,2022-02-04 00:23:07,1m - 14.130s,PASSED
+,,,,,,,
+Test Cases/common/Open Google Calculator,Chrome 97.0.4692.99,,,2022-02-04 00:21:53,2022-02-04 00:22:15,21.151s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.99,,,2022-02-04 00:21:54,2022-02-04 00:22:04,10.478s,PASSED
+"navigateToUrl(""https://www.google.co.th/"")",Chrome 97.0.4692.99,,,2022-02-04 00:22:04,2022-02-04 00:22:07,2.885s,PASSED
+"setText(findTestObject(""Page_Google/input__text""), ""Calculator"")",Chrome 97.0.4692.99,,,2022-02-04 00:22:07,2022-02-04 00:22:09,2.191s,PASSED
+"sendKeys(findTestObject(""Page_Google/input__text""), Keys.chord(ENTER))",Chrome 97.0.4692.99,,,2022-02-04 00:22:09,2022-02-04 00:22:14,4.226s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 97.0.4692.99,,,2022-02-04 00:22:14,2022-02-04 00:22:15,0.799s,PASSED
+,,,,,,,
+Test Cases/operations/Verify Plus,Chrome 97.0.4692.99,,,2022-02-04 00:22:15,2022-02-04 00:22:26,11.443s,PASSED
+"callTestCase(findTestCase(""common/Plus number""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.99,,,2022-02-04 00:22:15,2022-02-04 00:22:24,8.857s,PASSED
+"verifyElementText(findTestObject(""Page_calculator -  Google/number_input""), ""2"")",Chrome 97.0.4692.99,Check result is equal 2,,2022-02-04 00:22:24,2022-02-04 00:22:25,1.008s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 97.0.4692.99,,,2022-02-04 00:22:25,2022-02-04 00:22:26,1.085s,PASSED
+,,,,,,,
+Test Cases/operations/Verify Minus,Chrome 97.0.4692.99,,,2022-02-04 00:22:26,2022-02-04 00:22:43,17.010s,PASSED
+"callTestCase(findTestCase(""common/Minus number""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.99,,,2022-02-04 00:22:27,2022-02-04 00:22:41,13.890s,PASSED
+"verifyElementText(findTestObject(""Page_calculator -  Google/number_input""), ""55555"")",Chrome 97.0.4692.99,Check result is equal 55555,,2022-02-04 00:22:41,2022-02-04 00:22:42,0.362s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 97.0.4692.99,,,2022-02-04 00:22:42,2022-02-04 00:22:43,1.250s,PASSED
+,,,,,,,
+Test Cases/operations/Verify Multiply,Chrome 97.0.4692.99,,,2022-02-04 00:22:43,2022-02-04 00:22:56,13.407s,PASSED
+"callTestCase(findTestCase(""common/Multiply number""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.99,,,2022-02-04 00:22:44,2022-02-04 00:22:55,10.925s,PASSED
+"verifyElementText(findTestObject(""Page_calculator -  Google/number_input""), ""25"")",Chrome 97.0.4692.99,Check result is equal 25,,2022-02-04 00:22:55,2022-02-04 00:22:56,0.529s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 97.0.4692.99,,,2022-02-04 00:22:56,2022-02-04 00:22:56,0.832s,PASSED
+,,,,,,,
+Test Cases/operations/Verify Devide,Chrome 97.0.4692.99,,,2022-02-04 00:22:56,2022-02-04 00:23:07,10.257s,PASSED
+"callTestCase(findTestCase(""common/Devide number""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.99,,,2022-02-04 00:22:57,2022-02-04 00:23:05,8.166s,PASSED
+"verifyElementText(findTestObject(""Page_calculator -  Google/number_input""), ""10"")",Chrome 97.0.4692.99,Check result is equal 10,,2022-02-04 00:23:05,2022-02-04 00:23:06,0.677s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 97.0.4692.99,,,2022-02-04 00:23:06,2022-02-04 00:23:07,0.956s,PASSED
