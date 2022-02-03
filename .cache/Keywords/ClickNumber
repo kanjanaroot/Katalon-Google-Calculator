@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "74A6E54FACBA7112378B808E404C03C6",
+  "keywordClasses": [
+    {
+      "name": "ClickNumber",
+      "keywordMethods": [
+        {
+          "name": "clickNumber",
+          "parameters": [
+            {
+              "name": "number",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
